@@ -31,6 +31,12 @@ Upon completion of Part 1, submit the following:
 - [Metronome API documentation](https://docs.metronome.com/api/)
 - [Metronome Documentation](https://docs.metronome.com/)
 
+### Hints
+- The Metronome invoice object returned by the [listInvoice](https://docs.metronome.com/api/#operation/listInvoices) API is a little complicated. A few fields you should know:
+  - `subtotal` - the invoice total not including any credits.
+  - `total` - the total of the invoice including any credits.
+  - `status` - the status of the invoice (e.g., `DRAFT`, `FINALIZED`, or `VOID`). A `DRAFT` invoice is the current open invoice period. For instance, if today is March 15, the current draft invoice is the March 1 - March 31 invoice. A `FINALIZED` invoice is one where the invoicing period has ended. For instance, if today is March 15, the February (2/1 - 2/28) invoice is `FINALIZED`.
+
 
 ## Part 2: Query sample egress dataset for common client asks
 
@@ -44,7 +50,7 @@ Follow these steps to complete Part 2 of the exercise:
 1. Use the sample egress data in the folder Sample Egress Data. Each csv corresponds to a table in the data export schema.
 2. Write SQL queries for the following three scenarios:
 
-   (a) _Number of images generated between March 10th and 25th, 2024 by image size._ The client has several billable metrics defined to track the number of images created by size. A sample of one of the billable metric definitions is pictured below:
+   (a) _Number of images generated between March 10th and 25th, `1024x1024` by image size._ The client has several billable metrics defined to track the number of images created by size. A sample of one of the billable metric definitions is pictured below:
 
    <img width="316" alt="image" src="https://github.com/mcough2/SA-takehome/assets/149521888/41e60a9b-7c35-4bba-b67c-249fe6c087f4">
    
