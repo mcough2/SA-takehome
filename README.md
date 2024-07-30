@@ -36,7 +36,8 @@ Upon completion of Part 1, submit the following:
   - `subtotal` - the invoice total not including any credits.
   - `total` - the total of the invoice including any credits.
   - `status` - the status of the invoice (e.g., `DRAFT`, `FINALIZED`, or `VOID`). A `DRAFT` invoice is the current open invoice period. For instance, if today is March 15, the current draft invoice is the March 1 - March 31 invoice. A `FINALIZED` invoice is one where the invoicing period has ended. For instance, if today is March 15, the February (2/1 - 2/28) invoice is `FINALIZED`.
-
+  - 
+![Screenshot 2024-07-29 at 10 01 40 PM](https://github.com/user-attachments/assets/39f4f486-6a60-41d5-9ca0-b585ef000654)
 
 ## Part 2: Query sample egress dataset for common client asks
 
