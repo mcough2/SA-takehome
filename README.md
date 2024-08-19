@@ -52,7 +52,7 @@ Follow these steps to complete Part 2 of the exercise:
 1. Use the sample egress data in the folder Sample Egress Data. Each csv corresponds to a table in the data export schema.
 2. Write SQL queries for the following three scenarios:
 
-   (a) _Number of images generated between March 10th and 25th, `1024x1024` by image size._ The client has several billable metrics defined to track the number of images created by size. A sample of one of the billable metric definitions is pictured below:
+   (a) _Number of images generated between March 10th and 25th, 2024 by image size._ The client has several billable metrics defined to track the number of images created by size. A sample of one of the billable metric definitions is pictured below:
 
    <img width="316" alt="image" src="https://github.com/mcough2/SA-takehome/assets/149521888/41e60a9b-7c35-4bba-b67c-249fe6c087f4">
    
