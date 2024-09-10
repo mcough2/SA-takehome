@@ -3,6 +3,8 @@
 ## Overview
 This technical takehome exercise involves two parts. Part 1 is focused on querying the Metronome API to generate a customer summary report. The report is an overview of customers, current invoice balance, current credit balance and anything else you choose to include. In addition to the API, many clients leverage Metronome’s Data Export capabilities for reporting and reconciliation purposes. Part 2 involves building SQL against sample egress data. 
 
+_Please submit your deliverables at least 24 hours ahead of your scheduled review time._
+
 ## Part 1: Query Metronome API to produce customer summary report
 
 
@@ -80,5 +82,6 @@ Upon completion of Part 2, submit the following:
 - This exercise aims to assess your ability to work with APIs, process data, and create reports
 - Focus on code readability, efficiency, and adherence to best practices.
 - Feel free to reach out for clarification or assistance during the exercise.
+- Remember to submit your responses in advance of the review meeting.
 - Have fun and enjoy the challenge!
 
